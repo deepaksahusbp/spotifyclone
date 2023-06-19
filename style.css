@@ -1,37 +1,37 @@
 div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-  }
-  
-  div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-  }
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
 
-  .bottom{
-    position: sticky;
-    height: 60px;
-    background-color: black;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
 
-  .icons{
-    cursor: pointer;
-  }
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: #632005;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  #myProgressBar{
-    width: 90vw;
-    height: 4px;
-    cursor: pointer;
-  }
+.icons {
+  cursor: pointer;
+}
 
-  .songItem{
-    cursor: pointer;
-  }
+#myProgressBar {
+  width: 90vw;
+  height: 4px;
+  cursor: pointer;
+}
+
+.songItem {
+  cursor: pointer;
+}
